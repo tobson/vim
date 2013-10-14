@@ -13,3 +13,6 @@
 [submodule "bundle/hybrid"]
 	path = bundle/hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
+[submodule "bundle/sleuth"]
+	path = bundle/sleuth
+	url = git://github.com/tpope/vim-sleuth.git
