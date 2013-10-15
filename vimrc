@@ -12,3 +12,7 @@ if has('gui_running')
   set guifont=Monaco:h10
   set noantialias
 endif
+
+" latex settings
+let g:LatexBox_show_warnings=0
+let g:tex_comment_nospell=1
