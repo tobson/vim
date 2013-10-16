@@ -1,1 +1,1 @@
-syn region texRefZonen matchgroup=texStatement start="\\labelcref{" end="}\|%stopzone\>" contains=@texRefGroup
+syn region texRefZone		matchgroup=texStatement start="\\labelcref{"	end="}\|%stopzone\>"	contains=@texRefGroup
