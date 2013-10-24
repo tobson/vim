@@ -19,3 +19,6 @@ let g:UltiSnipsNoPythonWarning=0
 " latex settings
 let g:LatexBox_show_warnings=0
 let g:tex_comment_nospell=1
+if has('macunix')
+  let g:LatexBox_viewer="open -a skim"
+endif
