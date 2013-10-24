@@ -14,4 +14,7 @@ if has('macunix')
         \ <C-R>=line('.')<CR> "<C-R>=LatexBox_GetOutputFile()<CR>"
         \ "%:p" <CR>
 endif
+" Ignore certain file types when doing wild card completion
+set wildignore+=*.pdf,*.aux,*.bbl,*.blg,*.fls,*.log
+set wildignore+=*.synctex.gz,*.tex.latexmain,*.fdb_latexmk
 
