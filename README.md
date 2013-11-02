@@ -5,8 +5,8 @@ If you want to install a plugin, see if it has a git repo (9 out of 10 times it
 has a github repo). Find its git url and add to your `.vim` as a submodule:
 
     cd ~/.vim
-    git add submodule https://github.com/majutsushi/tagbar.git bundle/tagbar
-    git add submodule https://github.com/altercation/vim-colors-solarized.git bundle/solarized
+    git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
+    git submodule add https://github.com/altercation/vim-colors-solarized.git bundle/solarized
     git submodule update --init
     git submodule foreach git pull origin master
 
