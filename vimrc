@@ -7,8 +7,9 @@ filetype plugin indent on
 set nojoinspaces
 set expandtab
 
+colorscheme hybrid
+
 if has('gui_running')
-  colorscheme hybrid
   set guifont=Monaco:h10
   set noantialias
 endif
