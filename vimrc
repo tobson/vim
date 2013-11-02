@@ -12,6 +12,8 @@ colorscheme hybrid
 if has('gui_running')
   set guifont=Monaco:h10
   set noantialias
+  set guioptions-=r
+  set guioptions+=R
 endif
 
 " make ultisnips stop complaining when it can't start
