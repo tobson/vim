@@ -14,6 +14,15 @@ if has('gui_running')
   set noantialias
   set guioptions-=r
   set guioptions+=R
+  " Double the window width
+  map <Leader>wd
+        \ :let g:winposx=getwinposx() \|
+        \ :let g:winposy=getwinposy() \|
+        \ :let &columns=2*&columns<CR><CR>
+  " Restore old width
+  map <Leader>wh
+        \ :let &columns=&columns/2 \|
+        \ :execute 'winpos '.g:winposx.' '.g:winposy<CR>
 endif
 
 " make ultisnips stop complaining when it can't start
