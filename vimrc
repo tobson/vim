@@ -31,3 +31,5 @@ endif
 
 " make ultisnips stop complaining when it can't start
 let g:UltiSnipsNoPythonWarning=0
+" Don't spell check comments in tex files
+let g:tex_comment_nospell=1
