@@ -9,6 +9,10 @@ set expandtab
 
 colorscheme hybrid
 
+if has('mouse')
+  set mouse=nv
+endif
+
 if has('gui_running')
   set guifont=Monaco:h10
   set noantialias
