@@ -7,6 +7,9 @@ filetype plugin indent on
 set nojoinspaces
 set expandtab
 
+" Indicate git branch on status line (taken from :help fugitive-statusline)
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
 colorscheme hybrid
 
 if has('mouse')
