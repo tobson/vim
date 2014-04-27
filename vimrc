@@ -32,7 +32,10 @@ if has('gui_running')
         \ :execute 'winpos '.g:winposx.' '.g:winposy<CR>
 endif
 
-" make ultisnips stop complaining when it can't start
-let g:UltiSnipsNoPythonWarning=0
 " Don't spell check comments in tex files
 let g:tex_comment_nospell=1
+
+" snipmate info
+let g:snips_author="Tobias Heinemann"
+let g:snips_email="tobias.heinemann@gmail.com"
+let g:snips_github="https://github.com/tobson"
