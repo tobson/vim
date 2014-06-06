@@ -25,6 +25,7 @@ if has('gui_running')
   set noantialias
   set guioptions-=r
   set guioptions+=R
+  set vb
   " Double the window width
   map <Leader>wd
         \ :let g:winposx=getwinposx() \|
