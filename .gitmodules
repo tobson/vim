@@ -40,3 +40,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/julia"]
+	path = bundle/julia
+	url = git://github.com/JuliaLang/julia-vim.git
