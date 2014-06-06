@@ -1,6 +1,10 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+if $COLORTERM=='gnome-terminal'
+  set t_Co=256
+endif
+
 syntax on
 filetype plugin indent on
 
