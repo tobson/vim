@@ -43,3 +43,6 @@
 [submodule "bundle/julia"]
 	path = bundle/julia
 	url = git://github.com/JuliaLang/julia-vim.git
+[submodule "bundle/unimpaired"]
+	path = bundle/unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
