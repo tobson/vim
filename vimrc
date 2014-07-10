@@ -25,7 +25,7 @@ if has('gui_running')
   set guifont=Monaco:h10
   set noantialias
   set guioptions-=r
-  set guioptions+=R
+  set guioptions-=L
   set vb
   " Double the window width
   map <Leader>wd
