@@ -45,3 +45,6 @@ let g:tex_comment_nospell=1
 let g:snips_author="Tobias Heinemann"
 let g:snips_email="tobias.heinemann@gmail.com"
 let g:snips_github="https://github.com/tobson"
+
+" Don't syntax check Fortran files
+let g:loaded_syntastic_fortran_gfortran_checker=1
