@@ -31,10 +31,10 @@ if has('gui_running')
   map <Leader>wd
         \ :let g:winposx=getwinposx() \|
         \ :let g:winposy=getwinposy() \|
-        \ :let &columns=2*&columns<CR><CR>
+        \ :let &columns=2*(&columns + &foldcolumn) + 1<CR><CR>
   " Restore old width
   map <Leader>wh
-        \ :let &columns=&columns/2 \|
+        \ :let &columns=(&columns - 1)/2 - &foldcolumn \|
         \ :execute 'winpos '.g:winposx.' '.g:winposy<CR>
 endif
 
