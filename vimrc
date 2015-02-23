@@ -1,6 +1,3 @@
-runtime bundle/pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-
 if $COLORTERM=='gnome-terminal'
   set t_Co=256
 endif
@@ -13,9 +10,9 @@ set nojoinspaces
 " set shiftwidth=4
 
 " Indicate git branch on status line (taken from :help fugitive-statusline)
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+" set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
-colorscheme hybrid
+" colorscheme hybrid
 
 if has('mouse')
   set mouse=nv
