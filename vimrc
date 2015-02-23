@@ -1,3 +1,32 @@
+" Disable compatibility mode
+set nocompatible
+
+" Initialize Vundle
+filetype off
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
+
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tpope/vim-fugitive'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'JuliaLang/julia-vim'
+Plugin 'LaTeX-Box-Team/LaTeX-Box'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-sleuth'
+Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/syntastic'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tomtom/tlib_vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'nelstrom/vim-visual-star-search'
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+filetype plugin indent on
+
 if $COLORTERM=='gnome-terminal'
   set t_Co=256
 endif
@@ -10,9 +39,9 @@ set nojoinspaces
 " set shiftwidth=4
 
 " Indicate git branch on status line (taken from :help fugitive-statusline)
-" set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
-" colorscheme hybrid
+colorscheme hybrid
 
 if has('mouse')
   set mouse=nv
