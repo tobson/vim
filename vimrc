@@ -6,6 +6,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 
+Plugin 'gmarik/vundle'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tpope/vim-fugitive'
 Plugin 'w0ng/vim-hybrid'
