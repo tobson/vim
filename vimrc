@@ -42,6 +42,7 @@ set nojoinspaces
 " Indicate git branch on status line (taken from :help fugitive-statusline)
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
+set background=dark
 colorscheme hybrid
 
 if has('mouse')
