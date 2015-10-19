@@ -44,21 +44,31 @@ if has('mouse')
   set mouse=nv
 endif
 
+" Double the window width
+function DoubleWidth()
+  if has('gui_running')
+    let g:winposx=getwinposx()
+    let g:winposy=getwinposy()
+  endif
+  let &columns=2*(&columns + &foldcolumn) + 1
+endfunction
+nmap <Leader>wd :call DoubleWidth()<CR>
+
+" Restore old width
+function HalfWidth()
+  let &columns=(&columns - 1)/2 - &foldcolumn
+  if has('gui_running')
+    execute 'winpos '.g:winposx.' '.g:winposy
+  endif
+endfunction
+nmap <Leader>wh :call HalfWidth()<CR>
+
 if has('gui_running')
   set guifont=Monaco:h10
   set noantialias
   set guioptions-=r
   set guioptions-=L
   set vb
-  " Double the window width
-  map <Leader>wd
-        \ :let g:winposx=getwinposx() \|
-        \ :let g:winposy=getwinposy() \|
-        \ :let &columns=2*(&columns + &foldcolumn) + 1<CR><CR>
-  " Restore old width
-  map <Leader>wh
-        \ :let &columns=(&columns - 1)/2 - &foldcolumn \|
-        \ :execute 'winpos '.g:winposx.' '.g:winposy<CR>
 endif
 
 " Don't spell check comments in tex files
