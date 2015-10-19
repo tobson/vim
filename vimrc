@@ -26,11 +26,6 @@ Plugin 'nelstrom/vim-visual-star-search'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
-filetype plugin indent on
-
-if $COLORTERM=='gnome-terminal'
-  set t_Co=256
-endif
 
 syntax on
 filetype plugin indent on
