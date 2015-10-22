@@ -40,10 +40,6 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set background=dark
 colorscheme hybrid
 
-if has('mouse')
-  set mouse=nv
-endif
-
 " Double the window width
 function DoubleWidth()
   if has('gui_running')
