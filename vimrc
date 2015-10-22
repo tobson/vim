@@ -75,6 +75,8 @@ endif
 if has('gui_running')
   set guioptions-=r
   set guioptions-=L
+  set guioptions-=m
+  set guioptions-=T
 endif
 
 " Don't spell check comments in tex files
