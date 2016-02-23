@@ -25,8 +25,6 @@ Plug 'nelstrom/vim-visual-star-search'
 call plug#end()
 
 set nojoinspaces
-" set expandtab
-" set shiftwidth=4
 
 " Indicate git branch on status line (taken from :help fugitive-statusline)
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
