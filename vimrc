@@ -9,7 +9,7 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tpope/vim-fugitive'
 Plug 'w0ng/vim-hybrid'
 Plug 'JuliaLang/julia-vim'
-Plug 'LaTeX-Box-Team/LaTeX-Box'
+Plug 'LaTeX-Box-Team/LaTeX-Box' " Perhaps switch to lervag/vimtex?
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
