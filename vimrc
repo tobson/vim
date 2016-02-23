@@ -24,9 +24,6 @@ Plug 'nelstrom/vim-visual-star-search'
 " Add plugins to &runtimepath
 call plug#end()
 
-syntax on
-filetype plugin indent on
-
 set nojoinspaces
 " set expandtab
 " set shiftwidth=4
