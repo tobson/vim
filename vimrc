@@ -66,6 +66,7 @@ endif
 if has('gui_macvim')
   set guifont=Monaco:h10
   set noantialias
+  autocmd! GUIEnter * set vb t_vb=
 endif
 
 if has('gui_running')
