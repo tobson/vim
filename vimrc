@@ -1,31 +1,28 @@
 " Disable compatibility mode
 set nocompatible
 
-" Initialize Vundle
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Load plugins
+call plug#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tpope/vim-fugitive'
-Plugin 'w0ng/vim-hybrid'
-Plugin 'JuliaLang/julia-vim'
-Plugin 'LaTeX-Box-Team/LaTeX-Box'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-sleuth'
-Plugin 'honza/vim-snippets'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/syntastic'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tomtom/tlib_vim'
-Plugin 'SirVer/ultisnips'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'nelstrom/vim-visual-star-search'
+Plug 'VundleVim/Vundle.vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tpope/vim-fugitive'
+Plug 'w0ng/vim-hybrid'
+Plug 'JuliaLang/julia-vim'
+Plug 'LaTeX-Box-Team/LaTeX-Box'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/syntastic'
+Plug 'tomtom/tcomment_vim'
+Plug 'tomtom/tlib_vim'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'tpope/vim-unimpaired'
+Plug 'nelstrom/vim-visual-star-search'
 
-" All of your Plugins must be added before the following line
-call vundle#end()
+" Add plugins to &runtimepath
+call plug#end()
 
 syntax on
 filetype plugin indent on
