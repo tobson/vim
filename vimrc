@@ -63,7 +63,7 @@ nmap <Leader>wh :call HalfWidth()<CR>
 if has('gui_gtk2')
   set guifont=Droid\ Sans\ Mono\ 10
 endif
-if has('gui_mac')
+if has('gui_macvim')
   set guifont=Monaco:h10
   set noantialias
 endif
