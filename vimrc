@@ -61,6 +61,11 @@ if has('gui_macvim')
   autocmd! GUIEnter * set vb t_vb=
 endif
 
+" http://blog.sanctum.geek.nz/local-vimrc-files/
+if filereadable(glob('~/.vimrc.local'))
+  source ~/.vimrc.local
+endif
+
 if has('gui_running')
   set guioptions-=r
   set guioptions-=L
