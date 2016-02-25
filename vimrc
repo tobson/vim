@@ -51,16 +51,6 @@ function HalfWidth()
 endfunction
 nmap <Leader>wh :call HalfWidth()<CR>
 
-" Select GUI font
-if has('gui_gtk2')
-  set guifont=Droid\ Sans\ Mono\ 10
-endif
-if has('gui_macvim')
-  set guifont=Monaco:h10
-  set noantialias
-  autocmd! GUIEnter * set vb t_vb=
-endif
-
 " http://blog.sanctum.geek.nz/local-vimrc-files/
 if filereadable(glob('~/.vimrc.local'))
   source ~/.vimrc.local
