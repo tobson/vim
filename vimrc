@@ -33,7 +33,7 @@ set background=dark
 colorscheme hybrid
 
 " Double the window width
-function DoubleWidth()
+function! DoubleWidth()
   if has('gui_running')
     let g:winposx=getwinposx()
     let g:winposy=getwinposy()
@@ -43,7 +43,7 @@ endfunction
 nmap <Leader>wd :call DoubleWidth()<CR>
 
 " Restore old width
-function HalfWidth()
+function! HalfWidth()
   let &columns=(&columns - 1)/2 - &foldcolumn
   if has('gui_running')
     execute 'winpos '.g:winposx.' '.g:winposy
