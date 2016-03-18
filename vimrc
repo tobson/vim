@@ -4,7 +4,6 @@ set nocompatible
 " Load plugins
 call plug#begin()
 
-Plug 'VundleVim/Vundle.vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tpope/vim-fugitive'
 Plug 'w0ng/vim-hybrid'
