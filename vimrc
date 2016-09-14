@@ -4,20 +4,15 @@ set nocompatible
 " Load plugins
 call plug#begin('~/.vim/bundle')
 
-Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tpope/vim-fugitive'
 Plug 'w0ng/vim-hybrid'
-Plug 'JuliaLang/julia-vim'
-" Plug 'LaTeX-Box-Team/LaTeX-Box'
 Plug 'lervag/vimtex'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/syntastic'
-" Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-commentary'
-Plug 'tomtom/tlib_vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'tpope/vim-unimpaired'
 Plug 'nelstrom/vim-visual-star-search'
