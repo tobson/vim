@@ -66,6 +66,9 @@ if has('gui_running')
   set guioptions-=T
 endif
 
+" Assume that files with extension 'sh' are BASH files
+let g:is_bash=1
+
 " Don't spell check comments in tex files
 let g:tex_comment_nospell=1
 
