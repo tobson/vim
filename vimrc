@@ -17,6 +17,7 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'tpope/vim-unimpaired'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'nvie/vim-flake8'
 
 " Add plugins to &runtimepath
 call plug#end()
