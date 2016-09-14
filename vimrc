@@ -2,7 +2,7 @@
 set nocompatible
 
 " Load plugins
-call plug#begin()
+call plug#begin('~/.vim/bundle')
 
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tpope/vim-fugitive'

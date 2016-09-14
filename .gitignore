@@ -1,4 +1,4 @@
-/plugged
+/bundle
 /autoload/plug.vim.old
 /spell/*.spl
 *.swp
