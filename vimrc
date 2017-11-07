@@ -79,3 +79,5 @@ let g:snips_github="https://github.com/tobson"
 
 " Don't syntax check Fortran files
 let g:loaded_syntastic_fortran_gfortran_checker=1
+" Don't use lacheck
+let g:syntastic_tex_checkers=["chktex"]
