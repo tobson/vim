@@ -19,6 +19,7 @@ Plug 'nelstrom/vim-visual-star-search'
 Plug 'Shougo/neocomplete.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvie/vim-flake8'
+Plug 'justinmk/vim-sneak'
 
 " Add plugins to &runtimepath
 call plug#end()
@@ -81,3 +82,7 @@ let g:snips_github="https://github.com/tobson"
 let g:loaded_syntastic_fortran_gfortran_checker=1
 " Don't use lacheck
 let g:syntastic_tex_checkers=["chktex"]
+
+" Replace f with Sneak
+map f <Plug>Sneak_s
+map F <Plug>Sneak_S
