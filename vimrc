@@ -84,5 +84,5 @@ let g:loaded_syntastic_fortran_gfortran_checker=1
 let g:syntastic_tex_checkers=["chktex"]
 
 " Replace f with Sneak
-map f <Plug>Sneak_s
-map F <Plug>Sneak_S
+map z <Plug>Sneak_s
+map Z <Plug>Sneak_S
