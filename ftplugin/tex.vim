@@ -8,6 +8,7 @@ if has('macunix')
   let g:vimtex_view_method = 'skim'
 endif
 
+" Ignore certain file types when doing wild card completion
 set wildignore+=*.pdf,*.aux,*.bbl,*.blg,*.fls,*.log,*.lox,*Notes.bib,*.out
 set wildignore+=*.synctex.gz,*.tex.latexmain,*.fdb_latexmk
 
