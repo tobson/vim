@@ -7,7 +7,7 @@ setlocal spell spelllang=en_us
 if has('macunix')
   let g:vimtex_view_method = 'skim'
 endif
-if !has('gui_running')
+if !has('clientserver')
   let g:vimtex_compiler_latexmk = {'callback' : 0}
 endif
 " Ignore certain file types when doing wild card completion
