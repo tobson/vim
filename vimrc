@@ -16,10 +16,10 @@ Plug 'tpope/vim-commentary'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'tpope/vim-unimpaired'
 Plug 'nelstrom/vim-visual-star-search'
-Plug 'Shougo/neocomplete.vim'
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'Shougo/neocomplete.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 Plug 'nvie/vim-flake8'
-Plug 'justinmk/vim-sneak'
+" Plug 'justinmk/vim-sneak'
 
 " Add plugins to &runtimepath
 call plug#end()
@@ -83,6 +83,6 @@ let g:loaded_syntastic_fortran_gfortran_checker=1
 " Don't use lacheck
 let g:syntastic_tex_checkers=["chktex"]
 
-" Replace f with Sneak
-map z <Plug>Sneak_s
-map Z <Plug>Sneak_S
+" " Replace f with Sneak
+" map z <Plug>Sneak_s
+" map Z <Plug>Sneak_S
