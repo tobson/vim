@@ -70,9 +70,6 @@ endif
 " Assume that files with extension 'sh' are BASH files
 let g:is_bash=1
 
-" Don't spell check comments in tex files
-let g:tex_comment_nospell=1
-
 " snipmate info
 let g:snips_author="Tobias Heinemann"
 let g:snips_email="tobias.heinemann@gmail.com"
@@ -80,8 +77,6 @@ let g:snips_github="https://github.com/tobson"
 
 " Don't syntax check Fortran files
 let g:loaded_syntastic_fortran_gfortran_checker=1
-" Don't use lacheck
-let g:syntastic_tex_checkers=["chktex"]
 
 " " Replace f with Sneak
 " map z <Plug>Sneak_s

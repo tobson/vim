@@ -3,6 +3,12 @@ setlocal textwidth=78
 setlocal nofoldenable
 setlocal spell spelllang=en_us
 
+" Don't spell check comments in tex files
+let g:tex_comment_nospell=1
+
+" Specify which syntax checkers to use
+let g:syntastic_tex_checkers = ["chktex", "lacheck"]
+
 " If running on osx, enable sync with skim
 if has('macunix')
   let g:vimtex_view_method = 'skim'
