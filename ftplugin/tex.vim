@@ -13,9 +13,7 @@ let g:syntastic_tex_checkers = ["chktex", "lacheck"]
 if has('macunix')
   let g:vimtex_view_method = 'skim'
 endif
-if !has('clientserver')
-  let g:vimtex_compiler_latexmk = {'callback' : 0}
-endif
+
 " Ignore certain file types when doing wild card completion
 set wildignore+=*.pdf,*.aux,*.bbl,*.blg,*.fls,*.log,*.lox,*.out,*.toc
 set wildignore+=*.synctex.gz,*.tex.latexmain,*.fdb_latexmk,*Notes.bib
