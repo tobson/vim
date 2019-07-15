@@ -12,6 +12,7 @@ let g:syntastic_tex_checkers = ["chktex", "lacheck"]
 " If running on osx, enable sync with skim
 if has('macunix')
   let g:vimtex_view_method = 'skim'
+  let g:vimtex_view_skim_reading_bar = 0
 endif
 
 " Ignore certain file types when doing wild card completion
