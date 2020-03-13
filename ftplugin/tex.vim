@@ -7,7 +7,7 @@ setlocal spell spelllang=en_us
 let g:tex_comment_nospell=1
 
 " Specify which syntax checkers to use
-let g:syntastic_tex_checkers = ["chktex", "lacheck"]
+let g:syntastic_tex_checkers = ['chktex']
 
 " If running on osx, enable sync with skim
 if has('macunix')
