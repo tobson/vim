@@ -75,6 +75,9 @@ let g:snips_author="Tobias Heinemann"
 let g:snips_email="tobias.heinemann@gmail.com"
 let g:snips_github="https://github.com/tobson"
 
+" Use Bash-like completion
+set wildmode=longest,list
+
 " Don't syntax check Fortran files
 let g:loaded_syntastic_fortran_gfortran_checker=1
 
